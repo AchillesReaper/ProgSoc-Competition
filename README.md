@@ -3,22 +3,22 @@ ProgSoc-Competition
 
 ## Table of Contents
 
-- [1. Hello World](https://github.com/AchillesReaper/ProgSoc-Competition#1.-Hello-World)
-- [2. Console Frame](https://github.com/AchillesReaper/ProgSoc-Competition#2.-Console-Frame)
-- [3. Startup Job](https://github.com/AchillesReaper/ProgSoc-Competition#3.-Startup-Job)
-- [4. Expert Spy](https://github.com/AchillesReaper/ProgSoc-Competition#4.-Exper-Spy)
-- [5. Seismic Peaks](https://github.com/AchillesReaper/ProgSoc-Competition#5.-Seismic-Peaks)
-- [6. ASCII Cross Box](https://github.com/AchillesReaper/ProgSoc-Competition#6.-ASCII-Cross-Box)
-- [7. Message Compression](https://github.com/AchillesReaper/ProgSoc-Competition#7.-Message-Compression)
-- [8. Rouge Lock-on](https://github.com/AchillesReaper/ProgSoc-Competition#8.-Rogue-Lock-On)
-- [9. Matching Brackets](https://github.com/AchillesReaper/ProgSoc-Competition#9.-Matching-Brackets
+- [1. Hello World](https://github.com/AchillesReaper/ProgSoc-Competition#1-Hello-World)
+- [2. Console Frame](https://github.com/AchillesReaper/ProgSoc-Competition#2-Console-Frame)
+- [3. Startup Job](https://github.com/AchillesReaper/ProgSoc-Competition#3-Startup-Job)
+- [4. Expert Spy](https://github.com/AchillesReaper/ProgSoc-Competition#4-Exper-Spy)
+- [5. Seismic Peaks](https://github.com/AchillesReaper/ProgSoc-Competition#5-Seismic-Peaks)
+- [6. ASCII Cross Box](https://github.com/AchillesReaper/ProgSoc-Competition#6-ASCII-Cross-Box)
+- [7. Message Compression](https://github.com/AchillesReaper/ProgSoc-Competition#7-Message-Compression)
+- [8. Rouge Lock-on](https://github.com/AchillesReaper/ProgSoc-Competition#8-Rogue-Lock-On)
+- [9. Matching Brackets](https://github.com/AchillesReaper/ProgSoc-Competition#9-Matching-Brackets
 )
-- [10. Train Game](https://github.com/AchillesReaper/ProgSoc-Competition#10.-Train-Game)
-- [11. Persona Timetable](https://github.com/AchillesReaper/ProgSoc-Competition#11.-Persona-Timetable)
-- [12. Ray Casting](https://github.com/AchillesReaper/ProgSoc-Competition#12.-Ray-Casting)
+- [10. Train Game](https://github.com/AchillesReaper/ProgSoc-Competition#10-Train-Game)
+- [11. Persona Timetable](https://github.com/AchillesReaper/ProgSoc-Competition#11-Persona-Timetable)
+- [12. Ray Casting](https://github.com/AchillesReaper/ProgSoc-Competition#12-Ray-Casting)
 
 
-### 1. Hello World
+### 1 Hello World
 
 Welcome to the programming competition! We assume that this is the first programming competition for many contestants here, so we’re starting off with a basic Hello World question.
 
@@ -45,7 +45,7 @@ Hello World
 </pre>
 
 
-### 2. Console Frame
+### 2 Console Frame
 You’re working on a console user interface with some pretty visualizations of data. Part of the interface involves printing out words in a frame, so that they’re more easily visible.
 
 So for example, if you want to display Hello World in a frame, it will print it as:
@@ -99,7 +99,7 @@ Test
 </pre>
 
 
-### 3. Startup Job
+### 3 Startup Job
 You’ve been hired by an accounting startup after the previous developer quit, and they want you to clean up their records. After briefly looking over their database, you realized how many duplicate records they have of transactions. Each transaction has an ID, and their database wasn’t configured to prevent duplicates.
 
 Each ID is an 8 digit hex code, and before configuring the database to prevent future duplicates, you need to remove all duplicate records.
@@ -125,7 +125,7 @@ c66d1385 901ec343 d2111f4a
 </pre>
 
 
-### 4. Expert Spy
+### 4 Expert Spy
 A spy of the name James Bond has found the jackpot. Steam is the most popular online Video Game distributor, and Bond has just found his way into the Valve Headquarters and has located the CEO’s secret stash of Steam gift card codes. He needs your help to decrypt them so MI6 can buy a bunch of games during the next Steam Sale.
 
 Each code is encrypted as a sequence of numbers and you need to create an advanced algorithm to decrypt them. Each number in the sequence is two digits long and matches an associated letter of the alphabet, alternating between lowercase and uppercase. For example, the code 0001 decrypts to “ab”, and 232425262728 decrypts to “xyzABC”.
@@ -161,7 +161,7 @@ YZabcd
 </pre>
 
 
-### 5. Seismic Peaks
+### 5 Seismic Peaks
 You’re analyzing seismic activity values, and you have many graphs with two activity peaks each from different sensors. You need to find out the time between the two peaks in order to triangulate the underground source of the activity.
 
 A peak is a value where both neighbouring values are smaller, so for example in 1 1 2 3 1 1, the 4th value is the peak.
@@ -185,7 +185,7 @@ Sample “Example2”
 </pre>
 
 
-### 6. ASCII Cross Box
+### 6 ASCII Cross Box
 You are in a programming interview, and you are asked to print a cross box using ASCII, given the size of the box.
 
 Input
@@ -226,7 +226,7 @@ Sample “5”
 </pre>
 
 
-### 7. Message Compression
+### 7 Message Compression
 Forrest lives a country where mobile plans have very strict and expensive SMS limits. He wants to save characters while texting people, and he noticed that when he sends text messages, they have many repeating characters, and has devised a simple compression algorithm based on repeating information.
 
 The compression scheme is rather simple. When encoding a text string, repeated consecutive characters are replaced by a single instance of that character and the number of occurrences of that character (the character’s run length), unless there’s only 1 instance in which case the 1 is skipped. Decoding the encoded string results in the original string by repeating each character the number of times encoded by the run length. Forrest calls this encoding scheme run-length encoding. (We don’t think he was actually the first person to invent it, but we haven’t mentioned that to him.)
@@ -256,7 +256,7 @@ HHHeellloWooorrrrlld!!
 </pre>
 
 
-### 8. Rogue-Lock-On
+### 8 Rogue-Lock-On
 Hrrrrnngh, this is Solid Snake. I’m being attacked by an insane man in an Attack Helicopter and my homing missiles aren’t working. There’s too much interference and they can’t lock onto him, so I can’t get a good shot. I need you to come up with an algorithm to fix this damn thing, and fast!
 
 There should be several sequences of numbers. Each number in each sequence should represent the heat signature that the tracker sees. 0 means completely cold, and 9 means hot. To guarantee locking on, the tracker should be able to see the same heat value at least once in each sequence. If the tracker can’t see a pattern in each sequence, then it’s not locked on and you should return “No lock on”. If there are multiple matches, then the hottest match should be the target. If you do find a match in all sequences, return the number and the position in the sequence!
@@ -316,7 +316,7 @@ No lock on
 </pre>
 
 
-### 9. Matching Brackets
+### 9 Matching Brackets
 You are making a syntax parser for your own programming language, and the language uses various brackets for different scopes and expressions (similar to other C-style languages). Before parsing any fancy syntax, you want to make sure that the number of brackets matches, as most of the syntax around it would depend on it.
 
 You take input text for language and remove all characters other than the brackets. Then you write a script that makes sure that all the brackets match.
@@ -358,10 +358,10 @@ yes
 </pre>
 
 
-### 10. Train Game
+### 10 Train Game
 
 
-### 11. Persona Timetable
+### 11 Persona Timetable
 You have been given a list of Friends with their timetables of availability in High School in a specific order of priority. You’ve made it your mission to hang out with each friend exactly once throughout the week as early as possible.
 
 Each timetable (including your own) ranges from Monday to Friday, with time slots for the Morning and Afternoon for each day. Your script should output the optimal schedule for your friends, which in your case, is the earliest available slot in the week for each friend. If there is a conflict which causes a friend to not have an available slot, then try to move conflicting friends in order to the next available slot until you have an available slot.
@@ -456,4 +456,4 @@ Friday Afternoon: Haru
 </pre>
 
 
-### 12. Ray Casting 
+### 12 Ray Casting 
