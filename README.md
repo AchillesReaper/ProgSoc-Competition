@@ -11,7 +11,7 @@ ProgSoc-Competition
 - [6. ASCII Cross Box](https://github.com/AchillesReaper/ProgSoc-Competition#6.-ASCII-Cross-Box)
 - [7. Message Compression](https://github.com/AchillesReaper/ProgSoc-Competition#7.-Message-Compression)
 - [8. Rouge Lock-on](https://github.com/AchillesReaper/ProgSoc-Competition#8.-Rogue-Lock-On)
-- [9. Matching Brackets](https://github.com/AchillesReaper/ProgSoc-Competition#### 9.-Matching-Brackets
+- [9. Matching Brackets](https://github.com/AchillesReaper/ProgSoc-Competition#9.-Matching-Brackets
 )
 - [10. Train Game](https://github.com/AchillesReaper/ProgSoc-Competition#10.-Train-Game)
 - [11. Persona Timetable](https://github.com/AchillesReaper/ProgSoc-Competition#11.-Persona-Timetable)
